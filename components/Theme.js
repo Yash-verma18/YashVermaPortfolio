@@ -1,7 +1,6 @@
 "use client";
 
 import { ThemeProvider } from "next-themes";
-import { useEffect } from "react";
 
 const Theme = ({ children }) => {
   // for hydration error

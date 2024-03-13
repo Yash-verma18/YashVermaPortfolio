@@ -1,3 +1,4 @@
+import DarkLight from "@/components/DarkLight";
 import "./globals.css";
 
 import Theme from "@/components/Theme";
@@ -10,7 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Theme>{children}</Theme>
+        <Theme>
+          <DarkLight />
+          {children}
+        </Theme>
       </body>
     </html>
   );
