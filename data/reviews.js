@@ -45,7 +45,7 @@ const data = [
     name: "Abdul Moid Khan Mohammed (Fullstack Engineer)",
     company: "",
     comment:
-      "Yash is a highly skilled fullstack engineer with a deep understanding of web application development. His technical expertise, problem-solving abilities, and attention to detail have been evident in every project we've worked on together. Yash's collaborative nature and commitment to excellence make him a great teammate and contributor.",
+      "I had the pleasure of working with Yash at RTSN/Time Space Ventures, where he played a pivotal role in my smooth and efficient onboarding. Yash is not only incredibly welcoming and supportive, but he also exhibits a genuine willingness to assist others at any time. His passion for web3 is evident in his dedication to learning and growth within the field. Yash's friendly demeanor and enthusiasm make him a valuable asset to any team, especially in environments that are as dynamic and rapidly evolving as web3 technologies",
   },
 ];
 export default data;

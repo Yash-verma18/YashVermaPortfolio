@@ -34,10 +34,10 @@ const data = [
       { id: 4, name: "typescript", image: "/skills/typescript.png" },
       { id: 2, name: "next", image: "/skills/next-js.png" },
       { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "graphql", image: "/skills/graphql.png" },
+      { id: 7, name: "mongodb", image: "/skills/mongodb.png" },
     ],
-    ui_source_code: "https://github.com/Yash-verma18/UnityWorks",
-    demo: "http://www.demo.com/mydemo",
+    ui_source_code: "https://github.com/Yash-verma18/YashVermaPortfolio",
+    demo: "https://www.yash-verma.me/",
   },
 
   {
