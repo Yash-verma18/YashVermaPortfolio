@@ -1,15 +1,27 @@
+import Head from "next/head";
 import DarkLight from "@/components/DarkLight";
+import Theme from "@/components/Theme";
 import "./globals.css";
 
-import Theme from "@/components/Theme";
 export const metadata = {
-  title: "YASH VERMA ",
-  description: "Yash Verma Portfolio : Fullstack Blockchain Developer.",
+  title: "Yash Verma - Fullstack Blockchain Developer",
+  description:
+    "Portfolio showcasing Yash Verma, a Fullstack Blockchain Developer specializing in decentralized solutions.",
+  image: "/images/profile4.jpeg",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:url" content="https://yash-verma.me/" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body>
         <Theme>
           <DarkLight />
@@ -19,21 +31,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// q: what is the purpose of this file?
-// a: to create a layout that can be used across the app
-
-// q: what is the purpose of the Theme component?
-// a: to provide a theme to the app
-
-// q: what is the purpose of the DarkLight component?
-// a: to provide a dark/light mode switch to the app
-
-// q: what is the purpose of the metadata object?
-// a: to provide metadata to the app
-
-// q: what is the purpose of the globals.css file?
-// a: to provide global styles to the app
-
-// q: what is the purpose of the html and body tags?
-// a: to provide a base for the app
