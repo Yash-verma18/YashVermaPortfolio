@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const TestimonialsCards = ({ name, image, company, comment }) => {
+const TestimonialsCards = ({ testimonialUser, image, company, comment }) => {
   const cardHeight = comment.length > 100 ? "h-[300px]" : "h-[200px]";
 
   // DEFBC2
@@ -16,7 +16,7 @@ const TestimonialsCards = ({ name, image, company, comment }) => {
           />
         </div>
         <div className="flex-1">
-          <h1 className="font-bold text-base ">{name}</h1>
+          <h1 className="font-bold text-base ">{testimonialUser}</h1>
           <p className="block mt-[1px] text-zinc-500 dark:text-white">
             {" "}
             {company}
