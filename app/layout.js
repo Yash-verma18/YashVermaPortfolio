@@ -4,9 +4,9 @@ import Theme from "@/components/Theme";
 import "./globals.css";
 
 export const metadata = {
-  title: "Yash Verma - Fullstack Blockchain Developer",
+  title: "Yash Verma",
   description:
-    "Portfolio showcasing Yash Verma, a Fullstack Blockchain Developer specializing in decentralized solutions.",
+    "Portfolio showcasing Yash Verma, a Fullstack Blockchain Developer.",
   image: "https://yash-verma.me/images/profile4.jpeg",
 };
 
