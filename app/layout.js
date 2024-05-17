@@ -4,7 +4,7 @@ import Theme from "@/components/Theme";
 import "./globals.css";
 
 export const metadata = {
-  title: "Yash Verma",
+  title: "Yash Verma - Fullstack Blockchain Developer and Enthusiast",
   description:
     "Portfolio showcasing Yash Verma, a Fullstack Blockchain Developer.",
   image: "https://yash-verma.me/images/profile4.jpeg",
