@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
         <meta
           name="keywords"
           content={
-            keywords ||
             "portfolio, yash-verma, web3, blockchain, projects, development, fullstack, developer, development, website"
           }
         />
