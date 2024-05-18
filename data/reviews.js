@@ -2,7 +2,7 @@ const data = [
   {
     id: 2,
     image: "/reviews/jithin_ks.jpeg",
-    testimonialUser: "Jithin KS (Fullstack Blockchain Engineer)",
+    testimonialUser: "Jithin KS ",
     company: "Nethermind",
     comment:
       "Yash has been a dedicated learner and a valuable asset to our team. In our collaboration on RTSN, he quickly mastered complex concepts, contributed insights, and made crucial decisions. His growth from a newcomer to a proficient developer has been impressive. Yash's enthusiasm for web3 features and blockchain trends is commendable. It's been a pleasure mentoring him, and I'm confident he'll excel wherever he goes next",
