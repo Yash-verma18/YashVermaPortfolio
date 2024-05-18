@@ -4,10 +4,10 @@ import Theme from "@/components/Theme";
 import "./globals.css";
 
 export const metadata = {
-  title: "Yash Verma - Fullstack Blockchain Developer and Enthusiast",
+  title: "Yash Verma (Fullstack Blockchain Engineer)",
   description:
     "Portfolio showcasing Yash Verma, a Fullstack Blockchain Developer specializing in decentralized solutions. Explore my projects, skills, and experiences in building robust, scalable blockchain applications and decentralized systems.",
-  image: "https://yash-verma.me/images/profile4.jpeg",
+  image: "/images/profile4.jpeg",
 };
 
 export default function RootLayout({ children }) {
