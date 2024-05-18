@@ -23,7 +23,11 @@ export default function RootLayout({ children }) {
           }
         />
         {/* Open graph tags start */}
-        <meta property="og:title" content={metadata.title} />
+        <meta
+          name="title"
+          property="og:title"
+          content="YASH VERMA : SOFTWARE ENGINEER"
+        />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.image} />
         <meta property="og:url" content="https://yash-verma.me/" />
