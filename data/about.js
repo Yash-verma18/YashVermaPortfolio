@@ -1,5 +1,5 @@
 const data = {
-  heading: "Hello Everyone",
-  bio: "Hello! I’m Yash Verma, a Full Stack Developer with a deep fascination for blockchain, the metaverse, and VR technologies. I thrive on the entire journey of creating digital experiences—from conceptualizing ideas to building from zero and launching them live. This process of bringing visions to life is what excites me the most. I’m always eager to collaborate on projects that push the boundaries of technology and introduce disruptive innovations. Discover more about my work and connect with me to transform ideas into reality.",
+  heading: 'Hello Everyone',
+  bio: "I'm Yash Verma — a fullstack engineer with 4+ years of experience building products at early-stage startups across Web2, Web3, and AI. I’m passionate about crafting meaningful projects, from decentralized apps to AI features, and I love sharing what I learn through blogs, videos, and system design breakdowns. I'm currently diving deeper into blockchain, system design, and DevOps — all while staying active on Twitter and experimenting with side projects. Open to full-time or internship roles — let’s connect!",
 };
 export default data;
