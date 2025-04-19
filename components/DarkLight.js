@@ -1,32 +1,40 @@
-"use client";
-import { FaCloudMoon } from "react-icons/fa";
+'use client';
+import { FaCloudMoon } from 'react-icons/fa';
 
-import { LuSunMoon } from "react-icons/lu";
-import { useTheme } from "next-themes";
-
-import classNames from "classnames";
+import { LuSunMoon } from 'react-icons/lu';
+import { useTheme } from 'next-themes';
+import { useState, useEffect } from 'react';
+import classNames from 'classnames';
 const DarkLight = () => {
   const { theme, setTheme } = useTheme();
-  console.log("theme", theme);
+  const [mounted, setMounted] = useState(false);
+  console.log('theme', theme);
+  // only mark “mounted” after hydration
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // don’t render anything on the server
+  if (!mounted) return null;
   return (
     <div
       onClick={() => {
-        setTheme(theme === "dark" ? "light" : "dark");
+        setTheme(theme === 'dark' ? 'light' : 'dark');
       }}
-      className="fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center"
+      className='fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center'
     >
       <span
         className={classNames(
-          "w-7 h-7 flex items-center justify-center rounded-full transition-all duration-100 ease-in-out bg-violet-700",
+          'w-7 h-7 flex items-center justify-center rounded-full transition-all duration-100 ease-in-out bg-violet-700',
           {
-            "ml-5": theme === "dark",
+            'ml-5': theme === 'dark',
           }
         )}
       >
-        {theme === "light" ? (
-          <FaCloudMoon className="text-white" size={14} />
+        {theme === 'light' ? (
+          <FaCloudMoon className='text-white' size={14} />
         ) : (
-          <LuSunMoon className="text-white" size={14} />
+          <LuSunMoon className='text-white' size={14} />
         )}
       </span>
       {/* <span className="w-7 h-7 flex items-center justify-center bg-violet-700 rounded-full">
